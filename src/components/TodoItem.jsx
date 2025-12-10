@@ -9,7 +9,7 @@ function TodoItem({ todo }) {
     //functionality of edit and save button 
     const editTodo = ()=>{
         updateTodo(todo.id,{...todo,todo: todoMsg})
-        setIsTodoEditable(false)
+        setIsTodoEditable(false);
     }
 
     return (
